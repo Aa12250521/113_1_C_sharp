@@ -1,0 +1,7 @@
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.Form1.resources
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.AssemblyInfoInputs.cache
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.AssemblyInfo.cs
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\113_1_C_sharp\113-10-08\testbox\testbox\obj\Debug\net8.0-windows\testbox.sourcelink.json
