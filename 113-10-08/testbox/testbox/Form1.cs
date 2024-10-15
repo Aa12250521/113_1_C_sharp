@@ -16,7 +16,7 @@ namespace testbox
         {
             string fullname;
             string firstname;
-            stringv lastname;
+            string lastname;
 
             firstname = txtfirstname.Text;
             lastname = txtlastname.Text;

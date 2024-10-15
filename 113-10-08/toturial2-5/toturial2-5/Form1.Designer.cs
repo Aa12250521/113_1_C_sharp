@@ -71,7 +71,7 @@
             // 
             // btnshowback
             // 
-            btnshowback.Location = new Point(92, 327);
+            btnshowback.Location = new Point(89, 327);
             btnshowback.Name = "btnshowback";
             btnshowback.Size = new Size(181, 79);
             btnshowback.TabIndex = 3;

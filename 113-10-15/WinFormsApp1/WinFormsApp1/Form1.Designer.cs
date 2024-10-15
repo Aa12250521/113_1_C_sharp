@@ -1,0 +1,200 @@
+﻿namespace WinFormsApp1
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            TXTdayofweek = new TextBox();
+            txtmoon = new TextBox();
+            txtday = new TextBox();
+            txtyear = new TextBox();
+            lblshow = new Label();
+            btnshowday = new Button();
+            btnclear = new Button();
+            btnexit = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft JhengHei UI", 24F);
+            label1.Location = new Point(78, 51);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 41);
+            label1.TabIndex = 0;
+            label1.Text = "星期幾";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft JhengHei UI", 24F);
+            label2.Location = new Point(78, 136);
+            label2.Name = "label2";
+            label2.Size = new Size(82, 41);
+            label2.TabIndex = 1;
+            label2.Text = "日期";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft JhengHei UI", 24F);
+            label3.Location = new Point(78, 205);
+            label3.Name = "label3";
+            label3.Size = new Size(82, 41);
+            label3.TabIndex = 2;
+            label3.Text = "月份";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft JhengHei UI", 24F);
+            label4.Location = new Point(78, 276);
+            label4.Name = "label4";
+            label4.Size = new Size(82, 41);
+            label4.TabIndex = 3;
+            label4.Text = "年份";
+            // 
+            // TXTdayofweek
+            // 
+            TXTdayofweek.Font = new Font("Microsoft JhengHei UI", 24F);
+            TXTdayofweek.Location = new Point(198, 51);
+            TXTdayofweek.Name = "TXTdayofweek";
+            TXTdayofweek.Size = new Size(411, 48);
+            TXTdayofweek.TabIndex = 4;
+            // 
+            // txtmoon
+            // 
+            txtmoon.Font = new Font("Microsoft JhengHei UI", 24F);
+            txtmoon.Location = new Point(198, 202);
+            txtmoon.Name = "txtmoon";
+            txtmoon.Size = new Size(411, 48);
+            txtmoon.TabIndex = 5;
+            // 
+            // txtday
+            // 
+            txtday.Font = new Font("Microsoft JhengHei UI", 24F);
+            txtday.Location = new Point(198, 133);
+            txtday.Name = "txtday";
+            txtday.Size = new Size(411, 48);
+            txtday.TabIndex = 6;
+            txtday.TextChanged += txtday_TextChanged;
+            // 
+            // txtyear
+            // 
+            txtyear.Font = new Font("Microsoft JhengHei UI", 24F);
+            txtyear.Location = new Point(195, 276);
+            txtyear.Name = "txtyear";
+            txtyear.Size = new Size(411, 48);
+            txtyear.TabIndex = 7;
+            txtyear.TextChanged += textBox4_TextChanged;
+            // 
+            // lblshow
+            // 
+            lblshow.AutoSize = true;
+            lblshow.BorderStyle = BorderStyle.Fixed3D;
+            lblshow.FlatStyle = FlatStyle.Flat;
+            lblshow.Font = new Font("Microsoft JhengHei UI", 24F);
+            lblshow.ImageAlign = ContentAlignment.MiddleRight;
+            lblshow.Location = new Point(285, 358);
+            lblshow.Name = "lblshow";
+            lblshow.Size = new Size(2, 43);
+            lblshow.TabIndex = 8;
+            lblshow.Click += lblshow_Click;
+            // 
+            // btnshowday
+            // 
+            btnshowday.Location = new Point(91, 389);
+            btnshowday.Name = "btnshowday";
+            btnshowday.Size = new Size(124, 49);
+            btnshowday.TabIndex = 9;
+            btnshowday.Text = "顯示完整日期";
+            btnshowday.UseVisualStyleBackColor = true;
+            // 
+            // btnclear
+            // 
+            btnclear.Location = new Point(285, 389);
+            btnclear.Name = "btnclear";
+            btnclear.Size = new Size(124, 49);
+            btnclear.TabIndex = 10;
+            btnclear.Text = "清空內容";
+            btnclear.UseVisualStyleBackColor = true;
+            btnclear.Click += btnclear_Click;
+            // 
+            // btnexit
+            // 
+            btnexit.Location = new Point(482, 389);
+            btnexit.Name = "btnexit";
+            btnexit.Size = new Size(124, 49);
+            btnexit.TabIndex = 11;
+            btnexit.Text = "離開";
+            btnexit.UseVisualStyleBackColor = true;
+            btnexit.Click += btnexit_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnexit);
+            Controls.Add(btnclear);
+            Controls.Add(btnshowday);
+            Controls.Add(lblshow);
+            Controls.Add(txtyear);
+            Controls.Add(txtday);
+            Controls.Add(txtmoon);
+            Controls.Add(TXTdayofweek);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "Form1";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private TextBox TXTdayofweek;
+        private TextBox txtmoon;
+        private TextBox txtday;
+        private TextBox txtyear;
+        private Label lblshow;
+        private Button btnshowday;
+        private Button btnclear;
+        private Button btnexit;
+    }
+}
